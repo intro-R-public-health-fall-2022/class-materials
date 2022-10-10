@@ -308,7 +308,7 @@ nmesData <- read_csv("data/nmesPROCcoltypes.csv",
                        )
 )
 
-nmesData
+nmesData %>% print(width = Inf)
 
 nmesData$dob
 nmesData$mid_init
